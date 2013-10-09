@@ -13,3 +13,5 @@ var length = 7;
 var width = 6;
 var perimeter = length * 2 + width * 2;
 console.log(perimeter);
+
+//pay attention to order of operations to know when to add parenthesis

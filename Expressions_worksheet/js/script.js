@@ -53,7 +53,7 @@ console.log("You have spent a total of" +" "+ "$" + total +" "+ "on groceries ov
 
 //Discounts
 
-var originalPrice = 100;
-var percentage = 10;
-var item = jeans;
-var salesTax = 7;
+var originalPrice = 50;
+var discountPercentage = 5;
+var itemDescription = "jeans";
+var taxPercentage = 7;

@@ -55,14 +55,16 @@ console.log("You have spent a total of" +" "+ "$" + total +" "+ "on groceries ov
 
 var originalPrice = 50;
 var discountPercentage = 5;
-discountPercentage /= 100 ;
+var percentage = discountPercentage / 100 ;
 var itemDescription = "jeans";
 var taxPercentage = 7;
 taxPercentage /= 100;
 
 //multiply originalPrice and discountPercent then subtract from originalPrice to equal discountPrice
-var discountPrice = originalPrice - (originalPrice * discountPercentage);
+var discountPrice = originalPrice - (originalPrice * percentage);
 
 // multiply discountPrice and taxPercentage then add to discountPrice to equal taxPrice
 var taxPrice = discountPrice + (discountPrice * taxPercentage);
 
+//print out to the output 
+console.log("Your" + itemDescription + "were originally" +" "+ "$" + originalPrice + ", but after a" +" "+ discountPercentage +"%"+ " " + "discount, it is now" +" "+ "$" + discountPrice +" "+ "without tax, and" +" "+ "$" + taxPrice +" "+ "with tax.");

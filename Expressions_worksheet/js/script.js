@@ -18,3 +18,5 @@ var pizzaSlices = 10;
 var partyPeople = 15;
 var pizzas = 5;
 
+//multiply pizzaSlices and pizzas then divide by partyPeople & assign to slicesPerPerson
+var slicesPerPerson = pizzaSlices * pizzas / partyPeople;

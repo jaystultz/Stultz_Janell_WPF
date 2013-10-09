@@ -1,6 +1,4 @@
 //JavaScript
 
-var age;
-age = 31;
+var age = 31;
 
-var yearOfBirth = 1982;

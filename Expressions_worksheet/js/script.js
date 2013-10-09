@@ -58,3 +58,4 @@ var discountPercentage = 5;
 discountPercentage /= 100 ;
 var itemDescription = "jeans";
 var taxPercentage = 7;
+taxPercentage /= 100;

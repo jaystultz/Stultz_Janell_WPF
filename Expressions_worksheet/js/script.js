@@ -36,3 +36,6 @@ var slicesPerPerson = pizzaSlices * pizzas % partyPeople;
 
 //print out to the output slices per person
 console.log("Sparky got" +" "+ slicesPerPerson +" "+ "slices of pizza.");
+
+
+//Average Shopping Bill

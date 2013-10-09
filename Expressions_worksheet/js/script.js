@@ -3,3 +3,4 @@
 //Dog Years
 
 var sparkyAge = 5;
+const humanYears = 7;

@@ -47,5 +47,8 @@ var total = groceryBills[0] + groceryBills[1] + groceryBills[2] + groceryBills[3
 
 var average = total / 5;
 
+//print out to the output total and average 
+console.log("You have spent a total of" +" "+ "$" + total +" "+ "on groceries over 5 weeks.  That is an average of" +" "+ "$" + average +" "+ "per week.");
+
 
 

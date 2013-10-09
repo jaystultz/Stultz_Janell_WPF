@@ -2,7 +2,9 @@
 
 var firstName = "Janell";
 var lastName = "Stultz";
-var fullName;
+var fullName = firstName + lastName;
+ 
+console.log(fullName);
 
 
 

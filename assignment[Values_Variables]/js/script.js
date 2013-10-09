@@ -1,3 +1,3 @@
 //Arrays
 
-var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", 31];
+var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"];

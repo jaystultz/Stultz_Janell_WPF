@@ -39,3 +39,5 @@ console.log("Sparky got" +" "+ slicesPerPerson +" "+ "slices of pizza.");
 
 
 //Average Shopping Bill
+
+var groceryBill = [152, 183, 201, 175, 109];

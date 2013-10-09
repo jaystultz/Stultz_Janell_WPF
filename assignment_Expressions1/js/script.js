@@ -6,6 +6,7 @@ var quiz3 = 60;
 var quiz4 = 80;
 
 //the averages is the sum of the items divided by the number of items
+var average = quiz1 + quiz2 + quiz3 + quiz4
 
 
 

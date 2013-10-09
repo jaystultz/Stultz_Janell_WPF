@@ -1,7 +1,6 @@
-//Expressions - Modulo Operator
+//Expressions - Order of Operations
 
-var remainder = 211 % 2;
-console.log(remainder);
+
 
 
 

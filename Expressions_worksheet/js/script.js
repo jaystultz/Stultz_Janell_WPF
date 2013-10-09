@@ -16,3 +16,5 @@ console.log("Sparky is" +" "+ sparkyAge +" "+ "human years old which is" +" "+ d
 
 var pizzaSlices = 10;
 var partyPeople = 15;
+var pizzas = 5;
+

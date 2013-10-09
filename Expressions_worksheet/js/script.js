@@ -63,4 +63,6 @@ taxPercentage /= 100;
 //multiply originalPrice and discountPercent then subtract from originalPrice to equal discountPrice
 var discountPrice = originalPrice - (originalPrice * discountPercentage);
 
+// multiply discountPrice and taxPercentage then add to discountPrice to equal taxPrice
+var taxPrice = discountPrice + (discountPrice * taxPercentage);
 

@@ -2,3 +2,4 @@
 
 //Dog Years
 
+var sparkyAge = 7;

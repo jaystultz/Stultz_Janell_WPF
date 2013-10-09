@@ -33,3 +33,6 @@ var pizzas = 5;
 
 //multiply pizzaSlices and pizzas then use modulo operator to show the remainder that Sparky gets to eat
 var slicesPerPerson = pizzaSlices * pizzas % partyPeople;
+
+//print out to the output slices per person
+console.log("Sparky got" +" "+ slicesPerPerson +" "+ "slices of pizza.");

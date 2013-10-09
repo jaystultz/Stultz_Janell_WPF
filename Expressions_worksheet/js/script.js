@@ -15,3 +15,4 @@ console.log("Sparky is" +" "+ sparkyAge +" "+ "human years old which is" +" "+ d
 //Slice of Pie part 1
 
 var pizzaSlices = 10;
+var partyPeople = 15;

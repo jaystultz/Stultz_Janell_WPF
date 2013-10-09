@@ -10,3 +10,8 @@ var dogYears = sparkyAge * humanYears;
 
 //print out to the output dog years
 console.log("Sparky is" +" "+ sparkyAge +" "+ "human years old which is" +" "+ dogYears +" "+ "in dog years.");
+
+
+//Slice of Pie part 1
+
+var pizzaSlices = 10;

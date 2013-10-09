@@ -23,3 +23,8 @@ var slicesPerPerson = pizzaSlices * pizzas / partyPeople;
 
 //print out to the output slices per person
 console.log("Each person ate" +" "+ slicesPerPerson +" "+ "slices of pizza at the party.");
+
+
+//Slice of Pie part 2
+
+var pizzaSlices = 10;

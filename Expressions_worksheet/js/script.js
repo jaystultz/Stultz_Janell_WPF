@@ -28,3 +28,4 @@ console.log("Each person ate" +" "+ slicesPerPerson +" "+ "slices of pizza at th
 //Slice of Pie part 2
 
 var pizzaSlices = 10;
+var partyPeople = 20; 

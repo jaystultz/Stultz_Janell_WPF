@@ -30,3 +30,6 @@ console.log("Each person ate" +" "+ slicesPerPerson +" "+ "slices of pizza at th
 var pizzaSlices = 10;
 var partyPeople = 20; 
 var pizzas = 5;
+
+//multiply pizzaSlices and pizzas then use modulo operator to show the remainder that Sparky gets to eat
+var slicesPerPerson = pizzaSlices * pizzas % partyPeople;

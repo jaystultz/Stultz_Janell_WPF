@@ -67,4 +67,4 @@ var discountPrice = originalPrice - (originalPrice * percentage);
 var taxPrice = discountPrice + (discountPrice * taxPercentage);
 
 //print out to the output 
-console.log("Your" + itemDescription + "were originally" +" "+ "$" + originalPrice + ", but after a" +" "+ discountPercentage +"%"+ " " + "discount, it is now" +" "+ "$" + discountPrice +" "+ "without tax, and" +" "+ "$" + taxPrice +" "+ "with tax.");
+console.log("Your" +" "+ itemDescription +" "+ "were originally" +" "+ "$" + originalPrice + ", but after a" +" "+ discountPercentage +"%"+ " " + "discount, they are now" +" "+ "$" + discountPrice +" "+ "without tax, and" +" "+ "$" + taxPrice +" "+ "with tax.");

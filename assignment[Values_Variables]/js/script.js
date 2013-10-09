@@ -1,9 +1,3 @@
-//JavaScript
+//Arrays
 
-var age = 31;
-
-var isStudent = false;  //Boolean variable
-
-var firstName = "Janell";  //string variable
-
-var phrase = 'I don\'t know \n You\'ll have to speak with the professor';
+var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"];

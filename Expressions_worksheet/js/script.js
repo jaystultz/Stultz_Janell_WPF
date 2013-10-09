@@ -45,5 +45,7 @@ var groceryBills = [152, 183, 201, 175, 109];
 //add total bills together
 var total = groceryBills[0] + groceryBills[1] + groceryBills[2] + groceryBills[3] + groceryBills[4];
 
-//total amount spent on groceries
-console.log(total);
+var average = total / 5;
+
+
+

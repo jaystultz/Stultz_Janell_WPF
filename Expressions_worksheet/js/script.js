@@ -7,3 +7,6 @@ const humanYears = 7;
 
 //multiply sparkyAge and humanYears & assign to dogYears variable.
 var dogYears = sparkyAge * humanYears;
+
+//print out to the output dog years
+console.log("Sparky is" +" "+ sparkyAge +" "+ "human years old which is" +" "+ dogYears +" "+ "in dog years.");

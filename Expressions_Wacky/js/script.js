@@ -6,3 +6,4 @@ var cookies = prompt("We are calculating how many miles needed to run in order t
 var milk = prompt("Please enter how many 8 oz. glasses of milk you drank."); //how many glasses of milk a person drank.
 var iceCream = prompt("Please enter how many scoops of ice cream you ate."); //how many scoops of ice cream a person ate.
 var totalCalories= 150 * cookies + 130 * milk + 150 * iceCream; //multiply through then add each product to determine how many calories were consumed.
+console.log(totalCalories); //prints the total calories out to the console.

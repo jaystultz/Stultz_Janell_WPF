@@ -10,3 +10,4 @@ console.log(totalCalories); //prints the total calories out to the console.
 var miles = totalCalories / 150; //this var takes the total amount of calories and divides it by 150 which is a rough average of how many calories a person burns each mile they run. 
 console.log(miles); //prints how many miles needed to run to the console.
 var result = "You need to run" +" "+ miles +" "+ "to burn off the cookies, milk and ice cream you just ate."; //this is the result of the calculation.
+alert(result); //produces an alert for the result of the calculation.

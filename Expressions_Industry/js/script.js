@@ -6,3 +6,4 @@ var tuesday = prompt("Please enter enter your hours for Tuesday."); //this var s
 var wednesday = prompt("Please enter enter your hours for Wednesday."); //this var shows how many hours were spent coding on Wednesday.
 var thursday = prompt("Please enter enter your hours for Thursday.");//this var shows how many hours were spent coding on Thursday.
 var friday = prompt("Please enter enter your hours for Friday."); //this var shows how many hours were spent coding on Friday.  
+var hoursCoding = [monday, tuesday, wednesday, thursday, friday]; //var for the array showing amount of hours coding per day for a week.

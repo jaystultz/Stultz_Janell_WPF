@@ -7,3 +7,4 @@ var milk = prompt("Please enter how many 8 oz. glasses of milk you drank."); //h
 var iceCream = prompt("Please enter how many scoops of ice cream you ate."); //how many scoops of ice cream a person ate.
 var totalCalories= 150 * cookies + 130 * milk + 150 * iceCream; //multiply through then add each product to determine how many calories were consumed.
 console.log(totalCalories); //prints the total calories out to the console.
+var miles = totalCalories / 150; //this var takes the total amount of calories and divides it by 150 which is a rough average of how many calories a person burns each mile they run. 

@@ -11,3 +11,4 @@ console.log(hoursCoding); //prints the array to the console and lists out the ho
 var totalHours = Number(monday) + Number(tuesday) + Number(wednesday) + Number(thursday) + Number(friday); //totaling up the amount of hours worked coding for the week.
 console.log(totalHours); //prints total hours to console.
 var averageHours = totalHours / 5; //Dividing the total amount of hours spent coding by the number of days worked shows the average hours per day that were spent coding each day.  
+console.log(averageHours); //prints average to the console.

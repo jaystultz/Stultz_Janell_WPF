@@ -5,4 +5,5 @@ var weight = prompt("We are calculating the Basal Metabolic Rate for a woman.  \
 var height = prompt("Please enter your height in centimeters."); //this var collects the woman's height.
 var age = prompt("Please enter your age in years."); //this var collects the woman's age.
 var bmr= 10 * weight + 6.25 * height - 5 * age; //multiply through then add or subtract each product to determine ideal daily caloric intake.
+console.log(bmr); //prints total out to the console
 

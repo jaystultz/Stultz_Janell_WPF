@@ -14,3 +14,4 @@ var averageHours = totalHours / 5; //Dividing the total amount of hours spent co
 console.log(averageHours); //prints average to the console.
 var result = "You worked a total of" +" "+ totalHours +" "+ "this week.  You averaged" +" "+ averageHours +" "+ "hours per day.";  //The result of the calculation.
 alert(result); //Shows the result as an alert on the screen.
+console.log(result); //prints the result out to the console with the strings concatenated.

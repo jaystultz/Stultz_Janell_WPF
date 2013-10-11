@@ -8,4 +8,5 @@ var bmr= 10 * weight + 6.25 * height - 5 * age; //multiply through then add or s
 console.log(bmr); //prints total out to the console
 var result = "Your BMR is" +" "+ bmr +" "+ "calories per day"; //this var shows the woman's BMR.
 alert(result); //produces an alert for the result of the calculation.
+console.log(result); //prints the BMR result out to the console with the strings concatenated.
 

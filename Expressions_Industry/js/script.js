@@ -8,3 +8,4 @@ var thursday = prompt("Please enter enter your hours for Thursday.");//this var 
 var friday = prompt("Please enter enter your hours for Friday."); //this var shows how many hours were spent coding on Friday.  
 var hoursCoding = [monday, tuesday, wednesday, thursday, friday]; //var for the array showing amount of hours coding per day for a week.
 console.log(hoursCoding); //prints the array to the console and lists out the hours coding.
+var totalHours = Number(monday) + Number(tuesday) + Number(wednesday) + Number(thursday) + Number(friday); //totaling up the amount of hours worked coding for the week.

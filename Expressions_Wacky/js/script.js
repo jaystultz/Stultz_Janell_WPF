@@ -11,3 +11,4 @@ var miles = totalCalories / 150; //this var takes the total amount of calories a
 console.log(miles); //prints how many miles needed to run to the console.
 var result = "You need to run" +" "+ miles +" "+ "to burn off the cookies, milk and ice cream you just ate."; //this is the result of the calculation.
 alert(result); //produces an alert for the result of the calculation.
+console.log(result); //prints the amount of miles needed to run out to the console with the strings concatenated.

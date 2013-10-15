@@ -5,3 +5,5 @@
 //}else{
 	//do if false;
 //}
+
+(//condition) ? do if true : do if false;

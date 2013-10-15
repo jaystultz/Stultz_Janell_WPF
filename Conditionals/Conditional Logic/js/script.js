@@ -1,4 +1,4 @@
-//Conditional Logic
+//Conditional Logic - Relational Expressions
 
 var oldEnough = false;
 
@@ -8,5 +8,5 @@ if(oldEnough){
 	console.log("You can ride the coaster!")
 }
 
-console.log("what comes after");
+console.log("what comes after"); 
 

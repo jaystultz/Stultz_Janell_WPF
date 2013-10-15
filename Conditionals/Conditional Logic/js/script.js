@@ -1,11 +1,7 @@
-//Conditional Logic - Logical operators
-var budget = 100;
-var iPhonePrice = 199.99;
-var wonLottery = true;
+//Conditional Logic - Ternary Operators
 
- //if the price of the phone is less than our budget AND if our paycheck is over 300
-if(iPhonePrice < budget || wonLottery){
-	console.log("We can buy the phone!");
-}else{
-	console.log("No phone for you!!");
-}
+//if(condition){
+	//do if true;
+//}else{
+	//do if false;
+//}

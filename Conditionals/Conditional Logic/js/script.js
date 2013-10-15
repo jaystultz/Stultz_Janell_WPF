@@ -15,3 +15,6 @@ var gpa = 48;
 }else{
 	console.log("GPA is too low!");
 }*/
+
+(gpa > 2.0) ? console.log("You can graduate!") : console.log("GPA is too low!");
+

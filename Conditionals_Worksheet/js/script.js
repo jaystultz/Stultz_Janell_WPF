@@ -12,13 +12,14 @@ var distance = 200;
 //if there is not enough, print "You only have X gallons of gas in your tank, better get gas now while you can!"
 
 //multiply miles per gallon, tank size, and the amount in the tank in percent.  If total is more than 200 then you can make it.  If not then you need to stop.
+//example of ternary operator
 (mpg * tankSize * (amountInTank * .01) > distance) ? console.log("Yes, you can make it without stopping for gas!") : console.log("You only have" +" "+ (tankSize * (amountInTank * .01)) +" "+ "gallons of gas in your tank, better get gas now while you can!");
 
 
 //Grade letter calculator
 
 //given
-var grade = 5;
+var grade = 98;
 
 //if a grade falls within a certain range, a certain letter grade is earned.
 if (grade >= 95 && grade <= 100){

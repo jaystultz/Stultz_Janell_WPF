@@ -20,3 +20,4 @@ if(reservation === ""){ //this if statement contains the validation statement fo
 }else if(time <= checkInTime && reservation > 0){ //this else if statement represents that the required minimum check in time AND at least one current reservation have not been met in order to be able to check in.
 	console.log("You will need to wait until after 3 p.m. to check in."); //this is the printout showing the requirements have not been met and the guest is not able to check into their room.
 	alert("You will need to wait until after 3 p.m. to check in."); //this is the alert showing the requirements have not been met and the guest is not able to check into their room.
+}else{ //this else statement is for all the other optional inputs that could be entered and equals the false answer for the statement.

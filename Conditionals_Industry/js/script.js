@@ -14,3 +14,5 @@ if(clients === ""){ //this if statement contains the validation statement for th
 	console.log("Please enter valid amounts."); //this is the printout of the error alert if the projects variable is left blank.
 	alert("Please enter valid amounts."); //this is alert if the projects variable is left blank.
 }else if(clients > clientQuota && projects > minimumProjects){ //this else if statement contains the required variables to produce either a true or false answer.
+	console.log("You get a promotion!"); //this is the printout of the true statement 
+	alert("You get a promotion!"); //this is the alert of the true statement 

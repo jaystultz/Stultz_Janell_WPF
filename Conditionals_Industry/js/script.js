@@ -8,3 +8,5 @@ var projects = prompt("How many projects have you completed?"); //this variable 
 var clientQuota = 5; //this variable represents the minimum number of clients signed that is required for the employee to receive a promotion.
 var minimumProjects = 7; //this variable represents the minimum number of completed projects that is required for the employee to receive a promotion.
 if(clients === ""){ //this if statement contains the validation statement for the clients variable meaning that this statement checks to ensure that the variable is not left blank.  If it is blank, an error alert is produced.
+	console.log("Please enter valid amounts."); //this is the printout of the error alert if the clients variable is left blank.
+	alert("Please enter valid amounts."); //this is the alert if the clients variable is left blank.

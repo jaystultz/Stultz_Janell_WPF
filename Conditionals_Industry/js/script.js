@@ -17,3 +17,6 @@ if(clients === ""){ //this if statement contains the validation statement for th
 	console.log("You get a promotion!"); //this is the printout of the true statement 
 	alert("You get a promotion!"); //this is the alert of the true statement 
 }else{ //this else statement is for all the other optional inputs that could be entered and equals the false answer for the statement.
+	console.log("Keep working!");  //this is the printout of the false statement 
+	alert("Keep working!"); //this is the alert of the false statement 
+}

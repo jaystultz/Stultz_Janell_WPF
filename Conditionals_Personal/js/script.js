@@ -8,3 +8,4 @@ var sandwiches = prompt("How many sandwiches do you need to make for your childr
 var breadForSandwich = 2; //this variable represents how many pieces of bread is needed for one sandwich.
 //if there is enough bread, print to the console "Yes, there is enough bread for your sandwich!"
 //if there is not enough, print "There is not enough bread.  Today is not your day for a sandwich."
+(breadTotal === "") ? console.log ("Please enter a valid amount of bread and sandwiches.") & alert("Please enter a valid amount of bread and sandwiches.") : //This is an example of ternary operator that includes the validation statement for variable breadTotal.  The printout and alert for the required information in the prompt is also listed here.  

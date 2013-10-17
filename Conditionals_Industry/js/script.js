@@ -16,3 +16,4 @@ if(clients === ""){ //this if statement contains the validation statement for th
 }else if(clients > clientQuota && projects > minimumProjects){ //this else if statement contains the required variables to produce either a true or false answer.
 	console.log("You get a promotion!"); //this is the printout of the true statement 
 	alert("You get a promotion!"); //this is the alert of the true statement 
+}else{ //this else statement is for all the other optional inputs that could be entered and equals the false answer for the statement.

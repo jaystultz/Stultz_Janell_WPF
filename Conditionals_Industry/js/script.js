@@ -1,4 +1,4 @@
-//Janell Stultz 10/16/2013 - Assignment: Conditionals_Industry
+//Janell Stultz 10/17/2013 - Assignment: Conditionals_Industry
 
 //If I sign > the client quota and I complete > minimum projects, I will get a promotion.  If I do not complete one or both of these requirements, I will not get a promotion.
 

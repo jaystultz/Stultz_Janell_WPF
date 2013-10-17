@@ -18,3 +18,5 @@ if(reservation === ""){ //this if statement contains the validation statement fo
 	console.log("You may check into your hotel room."); //this is the printout showing the requirements have been met and the guest is able to check into their room.
 	alert("You may check into your hotel room."); //this is the alert showing the requirements have been met and the guest is able to check into their room.
 }else if(time <= checkInTime && reservation > 0){ //this else if statement represents that the required minimum check in time AND at least one current reservation have not been met in order to be able to check in.
+	console.log("You will need to wait until after 3 p.m. to check in."); //this is the printout showing the requirements have not been met and the guest is not able to check into their room.
+	alert("You will need to wait until after 3 p.m. to check in."); //this is the alert showing the requirements have not been met and the guest is not able to check into their room.

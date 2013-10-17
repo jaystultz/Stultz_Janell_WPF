@@ -21,3 +21,6 @@ if(reservation === ""){ //this if statement contains the validation statement fo
 	console.log("You will need to wait until after 3 p.m. to check in."); //this is the printout showing the requirements have not been met and the guest is not able to check into their room.
 	alert("You will need to wait until after 3 p.m. to check in."); //this is the alert showing the requirements have not been met and the guest is not able to check into their room.
 }else{ //this else statement is for all the other optional inputs that could be entered and equals the false answer for the statement.
+	console.log("Please see the front desk."); //this is the printout for the error message for the false answer.
+	alert("Please see the front desk."); //this is the alert for the error message for the false answer.
+}

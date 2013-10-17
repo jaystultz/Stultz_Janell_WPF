@@ -11,3 +11,4 @@ var checkInTime = 1500; //this variable represents the minimum time that check i
 if(reservation === ""){ //this if statement contains the validation statement for the reservation variable meaning that this statement checks to ensure that the variable is not left blank.  If it is blank, an error alert is produced.
 	console.log("Please enter a valid amount of reservations and current time."); //this is the printout of the error alert if the reservation variable is left blank.
 	alert("Please enter a valid amount of reservations and/or current time."); //this is the alert if the reservation variable is left blank.
+}else if (time === ""){ //this else if statement contains the validation statement for the time variable meaning that this statement checks to ensure that the variable is not left blank.  If it is blank, an error alert is produced.

@@ -10,3 +10,4 @@ var minimumProjects = 7; //this variable represents the minimum number of comple
 if(clients === ""){ //this if statement contains the validation statement for the clients variable meaning that this statement checks to ensure that the variable is not left blank.  If it is blank, an error alert is produced.
 	console.log("Please enter valid amounts."); //this is the printout of the error alert if the clients variable is left blank.
 	alert("Please enter valid amounts."); //this is the alert if the clients variable is left blank.
+}else if(projects === ""){ //this else if statement contains the validation statement for the projects variable meaning that this statement checks to ensure that the variable is not left blank.  If it is blank, an error alert is produced.

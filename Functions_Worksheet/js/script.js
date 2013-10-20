@@ -23,4 +23,4 @@ var killerStings = function(weight){	//replace functionName with the function's 
 var totalStings = killerStings(175); //this variable represent where the function is being returned to.  It is outside of the function.
 							//the amount in the parenthesis represents the function's argument.
 							
-console.log("It takes" +" "+ totalStings +" "+ "bee stings to kill this animal.");
+console.log("It takes" +" "+ totalStings +" "+ "bee stings to kill this animal."); //print the function's answer to the console.

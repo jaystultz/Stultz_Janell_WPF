@@ -17,4 +17,5 @@ console.log("The circumference of the circle is" +" "+ circumference +"."); //pr
 //Stung! - calculate how many bee stings are needed to kill an animal
 var killerStings = function(weight){	//replace functionName with the function's proper name. Add in the proper parameter.
 	var stings = weight * 8.666666667; //this variable represents the mathematics that will be used to complete this problem.  The weight varies but the 8.666666667 remains constant.
+	return stings; //this element retrieves and spits out the answer for this function.  This value will not be stored using the return element.
 }

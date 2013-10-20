@@ -15,6 +15,6 @@ console.log("The circumference of the circle is" +" "+ circumference +"."); //pr
 
 
 //Stung! - calculate how many bee stings are needed to kill an animal
-var functionName = function(parameter){	//this is the basic skeleton set up for an anonymous function
+var killerStings = function(parameter){	//replace functionName with the function's proper name.
 	//code to be run by the function
 }

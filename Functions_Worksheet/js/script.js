@@ -20,4 +20,5 @@ var killerStings = function(weight){	//replace functionName with the function's 
 	return stings; //this element retrieves and spits out the answer for this function.  This value will not be stored using the return element.
 }
 
-var totalStings = killerStings(); //this variable represent where the function is being returned to.  It is outside of the function.
+var totalStings = killerStings(175); //this variable represent where the function is being returned to.  It is outside of the function.
+							//the amount in the parenthesis represents the function's argument.

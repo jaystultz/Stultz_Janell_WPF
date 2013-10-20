@@ -12,3 +12,7 @@ var circumference = circleCirc(7);  //this variable represents where the functio
 							//the amount found in the above parenthesis represents the function's argument.
 
 console.log("The circumference of the circle is" +" "+ circumference +"."); //print the answer to the console.
+
+
+//Stung! - calculate how many bee stings are needed to kill an animal
+

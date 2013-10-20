@@ -8,4 +8,4 @@ var circleCirc = function(radius){	//replace functionName with proper name for t
 	return circ;  //the return element retrieves and spits out the information (answer) for this function.  This value will not be stored using the return element.
 }
 
-var circumference = circleCirc; //this variable represents where the function is being returned to.  It is outside of the function.
+var circumference = circleCirc(7);  //this variable represents where the function is being returned to.  It is outside of the function.

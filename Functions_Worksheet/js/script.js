@@ -19,3 +19,5 @@ var killerStings = function(weight){	//replace functionName with the function's 
 	var stings = weight * 8.666666667; //this variable represents the mathematics that will be used to complete this problem.  The weight varies but the 8.666666667 remains constant.
 	return stings; //this element retrieves and spits out the answer for this function.  This value will not be stored using the return element.
 }
+
+var totalStings = killerStings(); //this variable represent where the function is being returned to.  It is outside of the function.

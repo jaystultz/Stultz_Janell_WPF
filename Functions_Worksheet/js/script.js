@@ -7,3 +7,5 @@ var circleCirc = function(radius){	//replace functionName with proper name for t
 	var circ = radius * 2 * 3.14;  //this variable represents the formula for finding the circumference of a circle.  The "2" and "3.14" are constant values.
 	return circ;  //the return element retrieves and spits out the information (answer) for this function.  This value will not be stored using the return element.
 }
+
+var circumference //this variable represents where the function is being returned to.  It is outside of the function.

@@ -9,3 +9,6 @@ var circleCirc = function(radius){	//replace functionName with proper name for t
 }
 
 var circumference = circleCirc(7);  //this variable represents where the function is being returned to.  It is outside of the function.
+							//the amount found in the above parenthesis represents the function's argument.
+
+console.log("The circumference of the circle is" +" "+ circumference +"."); //print the answer to the console.

@@ -12,8 +12,4 @@ var phoneUpgrade = function(yourAge, phoneAge, contractAge){ //this variable rep
 	return upgrade; //this represents the "finished product" of the function
 }
 
-
-
-
-
-
+phoneUpgrade(); //this represents the invocation of the function

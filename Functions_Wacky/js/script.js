@@ -20,3 +20,6 @@ if(large === ""){ //this if statement contains the validation statement for the 
 }else if(medium === ""){ //this statement contains the validation statement for the input variables meaning that this statement checks to ensure that the variables are not left blank.  If it is blank, an error alert is produced.
 	console.log("Please enter valid amounts."); //this is the printout of the error alert if the clients variable is left blank.
 	alert("Please enter valid amounts.");//this is the printout of the error alert if the clients variable is left blank. 
+}else if(small === ""){ //this statement contains the validation statement for the input variables meaning that this statement checks to ensure that the variables are not left blank.  If it is blank, an error alert is produced.
+	console.log("Please enter valid amounts."); //this is the printout of the error alert if the clients variable is left blank.
+	alert("Please enter valid amounts."); //this is the printout of the error alert if the clients variable is left blank.

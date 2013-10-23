@@ -25,3 +25,4 @@ if(yourAge === "", phoneAge === "", contractAge === ""){ //this if statement con
 }else if(phoneUpgrade >= yourAge && phoneAge >= 2 && contractAge >= 2){ //this else if statement contains the required variables to produce either an eligible or ineligible phone upgrade answer.
 	console.log("You are eligible for a free phone upgrade."); //this is the printout of the positive eligibility statement
 	alert("You are eligible for a free phone upgrage."); //this is the alert of the positive eligibility statement
+}else if(phoneUpgrade >= yourAge && phoneAge >= 2 && contractAge < 2){ //this else if statement contains the required variables to produce either an eligible, optional, or ineligible phone upgrade answer.

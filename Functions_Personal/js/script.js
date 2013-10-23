@@ -13,3 +13,4 @@ var phoneUpgrade = function(yourAge, phoneAge, contractAge){ //this variable rep
 }
 
 phoneUpgrade(); //this represents the invocation of the function
+if(yourAge === "", phoneAge === "", contractAge === ""){ //this if statement contains the validation statement for the input variables meaning that this statement checks to ensure that the variables are not left blank.  If it is blank, an error alert is produced.

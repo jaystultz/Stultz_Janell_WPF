@@ -11,3 +11,5 @@ function shipCost(large, medium, small){ //this is the "normal" function to find
 	var cost = (large * largeRate) + (medium * medRate) + (small * smRate); //this variable represents the total shipping cost based on the number of each sized packages multiplied by their individual costs to ship then added together.
 	return cost; //this represents the "finished product" or "total" of the function
 }
+
+shipCost(); //this represents the invocation of the function

@@ -17,3 +17,5 @@ if(yourAge === "", phoneAge === "", contractAge === ""){ //this if statement con
 	console.log("Please enter valid amounts."); //this is the printout of the error alert if the clients variable is left blank.
 	alert("Please enter valid amounts."); //this is the alert if the clients variable is left blank.
 }else if(yourAge < 18 && phoneAge >= 2 && contractAge >= 2){ //this else if statement contains the required variables to produce either an eligible or ineligible phone upgrade answer.
+	console.log("You are not eligible for a free phone upgrade."); //this is the printout of the negative eligibility statement
+	alert("You are not eligible for a free phone upgrade."); //this is the alert of the negative eligibility statement

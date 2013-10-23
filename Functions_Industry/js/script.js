@@ -9,3 +9,5 @@ var totalCalls = function(transports, cancels){ //this variable represents the f
 	var calls =  transports + cancels; //this variable represents the total number of calls regardless of whether they were transports or cancels.  
 }
 
+totalCalls(); //this represents the invocation of the function
+

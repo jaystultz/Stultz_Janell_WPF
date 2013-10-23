@@ -16,3 +16,4 @@ phoneUpgrade(); //this represents the invocation of the function
 if(yourAge === "", phoneAge === "", contractAge === ""){ //this if statement contains the validation statement for the input variables meaning that this statement checks to ensure that the variables are not left blank.  If it is blank, an error alert is produced.
 	console.log("Please enter valid amounts."); //this is the printout of the error alert if the clients variable is left blank.
 	alert("Please enter valid amounts."); //this is the alert if the clients variable is left blank.
+}else if(yourAge < 18 && phoneAge >= 2 && contractAge >= 2){ //this else if statement contains the required variables to produce either an eligible or ineligible phone upgrade answer.

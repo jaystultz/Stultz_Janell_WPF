@@ -24,3 +24,8 @@ if(large === ""){ //this if statement contains the validation statement for the 
 	console.log("Please enter valid amounts."); //this is the printout of the error alert if the clients variable is left blank.
 	alert("Please enter valid amounts."); //this is the printout of the error alert if the clients variable is left blank.
 }else{ //this statement is otherwise true if the above statements have been satisfied and the total will print to the console and the alert.
+	var totalCost = shipCost(large, medium, small); //this variable represents the total cost to ship packages 
+	var result = ("It will cost" +" "+ "$" + totalCost +" "+ "to ship your packages."); //this variable represents the total result with the printout to the console.
+	alert(result); //this is the alert for the total cost
+	console.log(result); //this is the printout for the total cost
+}
